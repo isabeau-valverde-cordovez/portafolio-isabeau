@@ -1,4 +1,4 @@
-# Mi Portfolio Personal
+# Mi Portafolio Personal
 
 ¡Hola! Soy Isabeau Valverde, desarrolladora Full Stack Python.
 

@@ -4,17 +4,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isabeau Valverde - Portfolio</title>
+    <title>Isabeau Valverde - Desarrolladora Full Stack</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <!-- Tu contenido aquí -->
-    <h1>¡Hola! Soy Isabeau Valverde</h1>
-    <p>Desarrolladora Full Stack Python</p>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Isabeau Valverde</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero-section">
+        <div class="container text-center">
+            <img src="images/foto-perfil.jpg" alt="Isabeau Valverde" class="profile-photo">
+            <h1>Isabeau Valverde</h1>
+            <p class="lead">Desarrolladora Full Stack Python</p>
+            <p>Apasionada por innovar y crear soluciones tecnológicas</p>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre mí</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Soy una desarrolladora Full Stack apasionada por innovar. Tengo 24 años y soy de nacionalidad
+                        chilena.</p>
+                    <p>Me encanta aprender nuevas tecnologías y enfrentar desafíos creativos. Cuando no estoy
+                        programando, disfruto de la naturaleza y conocer lugares nuevos.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Formación</h4>
+                    <p>Me gradué de la academia Desafío Latam, donde durante 6 meses desarrollé diversos proyectos y
+                        adquirí las habilidades que tengo hoy en día.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Mis Proyectos</h2>
+            <div class="row">
+                <!-- Aquí agregarás tus proyectos -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/proyectos/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Nombre del Proyecto</h5>
+                            <p class="card-text">Descripción breve del proyecto y tecnologías utilizadas.</p>
+                            <a href="#" class="btn btn-primary">Ver proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Habilidades Técnicas</h2>
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="skill-item">
+                        <i class="fab fa-python fa-3x"></i>
+                        <p>Python</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="skill-item">
+                        <i class="fas fa-database fa-3x"></i>
+                        <p>PostgreSQL</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="skill-item">
+                        <i class="fab fa-html5 fa-3x"></i>
+                        <p>HTML5</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt fa-3x"></i>
+                        <p>CSS3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+                    <p><i class="fas fa-envelope"></i> tu.email@ejemplo.com</p>
+                    <p><i class="fab fa-linkedin"></i> linkedin.com/in/tu-perfil</p>
+                    <p><i class="fab fa-github"></i> github.com/tusuario</p>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-secondary text-white text-center">
+        <p>&copy; 2023 Isabeau Valverde. Todos los derechos reservados.</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
     <script src="scripts/script.js"></script>
 </body>
 

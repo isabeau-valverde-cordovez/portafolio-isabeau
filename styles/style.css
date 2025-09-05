@@ -1,9 +1,47 @@
+/* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
 }
 
-/* Estilos iniciales - los personalizarás después */
+/* Hero section */
+.hero-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+
+/* Secciones */
+section {
+    padding: 60px 0;
+}
+
+/* Tarjetas de proyectos */
+.card {
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Habilidades */
+.skill-item {
+    padding: 20px;
+}
+
+.skill-item i {
+    margin-bottom: 15px;
+    color: #667eea;
+}
